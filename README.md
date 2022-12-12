@@ -3,9 +3,12 @@
 
 # Setting the environment
 Create the conda environment conda env create -n assign3--file environment.yml 
-## For Linux conda env create -nassign3 --file environment_win.yml 
-## For Windows conda envcreate -n assign3 --file environment_mac.yml 
-## For Mac conda activate assign3 # Run the environment
+## For Linux
+conda env create -nassign3 --file environment_win.yml 
+## For Windows 
+conda envcreate -n assign3 --file environment_mac.yml 
+## For Mac 
+conda activate assign3 # Run the environment
 
 # Running the code
 ## Invoke the environment (without estimation) in the ‘small’ layout with 2 StdCars as follows:
